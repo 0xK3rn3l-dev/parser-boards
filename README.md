@@ -70,7 +70,7 @@ python main.py boards_parser
 Парсер отправляет POST-запрос к API https://boards.by/local/ajax/map.php с необходимыми cookies и заголовками.
 
 2. Обработка данных
-
+```
 Для каждого объекта извлекаются и преобразуются поля:
 Исходное поле	              Целевое поле	        Примечание
 ID	                        gid	                  Уникальный идентификатор
@@ -80,7 +80,7 @@ PROPERTY_TYPE_VALUE	        construction_format	  Маппится по спра
 PROPERTY_TYPE_VALUE	        display_type	        Маппится по справочнику
 PROPERTY_LONGITUDE_VALUE	  lat	                  Внимание: в API перепутаны поля!
 PROPERTY_LATITUDE_VALUE	    lon	                  Внимание: в API перепутаны поля!
-
+```
 3. Разделение сторон
 
 Если конструкция имеет несколько сторон (например, "А,В"), создаётся отдельная запись для каждой стороны с одинаковым gid, но разным name.
