@@ -72,12 +72,12 @@ python main.py boards_parser
 2. Обработка данных
 ```
 Для каждого объекта извлекаются и преобразуются поля:
-Исходное поле	              Целевое поле	        Примечание
+Исходное поле	              Целевое поле	          Примечание
 ID	                          gid	                  Уникальный идентификатор
 NAME	                      address	              Адрес (очищается от префиксов)
-PROPERTY_SIDE_VALUE	          name	                Разделяется на отдельные стороны
+PROPERTY_SIDE_VALUE	          name	                  Разделяется на отдельные стороны
 PROPERTY_TYPE_VALUE	          construction_format	  Маппится по справочнику
-PROPERTY_TYPE_VALUE	          display_type	        Маппится по справочнику
+PROPERTY_TYPE_VALUE	          display_type	          Маппится по справочнику
 PROPERTY_LONGITUDE_VALUE	  lat	                  Внимание: в API перепутаны поля!
 PROPERTY_LATITUDE_VALUE	      lon	                  Внимание: в API перепутаны поля!
 ```
