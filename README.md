@@ -4,17 +4,27 @@
 
 ## Структура проекта
 
-output/               -  Результаты парсинга
-venv/                 -  Виртуальное окружение
-API-data.json         -  Пример ответа API (для отладки)
-boards_parser.py      -  Основной модуль парсинга
-parse_constructor.py  -  Маппинг типов конструкций
-formatting.py         -  Форматирование
-extract_json.py       -  Сохранение в JSON
-extract_exl.py        -  Сохранение в Excel
-main.py               -  Точка входа
-requirements.txt      -  Зависимости
-dev.note.txt          -  Заметки разработчика
+output/ - Результаты парсинга
+
+venv/ - Виртуальное окружение
+
+API-data.json - Пример ответа API (для отладки)
+
+boards_parser.py - Основной модуль парсинга
+
+parse_constructor.py - Маппинг типов конструкций
+
+formatting.py -  Форматирование
+
+extract_json.py - Сохранение в JSON
+
+extract_exl.py - Сохранение в Excel
+
+main.py - Точка входа
+
+requirements.txt - Зависимости
+
+dev.note.txt - Заметки разработчика
 
 
 ## Установка
