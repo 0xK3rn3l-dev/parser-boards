@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('parse_errors.log', encoding='utf-8'),
+        logging.FileHandler('parse_logs.log', encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
