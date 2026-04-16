@@ -1,0 +1,5 @@
+ошибка в API boards.by - они перепутали названия полей:
+
+В PROPERTY_LONGITUDE_VALUE лежит широта!
+
+В PROPERTY_LATITUDE_VALUE лежит долгота!
